@@ -30554,9 +30554,19 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [_vm._v("KENNEL Julien")]),
           _vm._v(" "),
-          _c("p", [_vm._v("Tél : 06.74.11.82.11")]),
+          _c("p", [
+            _vm._v("Tél : "),
+            _c("a", { attrs: { href: "tel:+336.74.11.82.11" } }, [
+              _vm._v("06.74.11.82.11"),
+            ]),
+          ]),
           _vm._v(" "),
-          _c("p", [_vm._v("Email : kennel.julien@gmail.com")]),
+          _c("p", [
+            _vm._v("Email : "),
+            _c("a", { attrs: { href: "mailto:kennel.julien@gmail.com" } }, [
+              _vm._v("kennel.julien@gmail.com"),
+            ]),
+          ]),
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-lg-8 ml-auto" }, [

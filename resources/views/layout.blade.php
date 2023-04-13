@@ -5,6 +5,10 @@
 		<title>Julien-kennel</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="C.V Julien Kennel, développeur d'apllications et de sites web, région de Strasbourg dans le bas-rhin.">
+		<meta name="author" content="Julien Kennel">
+		<link rel="shortcut icon" type="image/png" href="{{asset('images/ico.png')}}"/>
 
 		<script type="application/javascript" src="{{ asset('js/app.js') }}" defer></script>
 

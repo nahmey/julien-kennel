@@ -15,7 +15,13 @@ class HomeController extends Controller
     {
         $sites = [
             [
-                'nom' => 'Site CEN Lorraine',
+                'nom' => 'Site du pôle gestion des milieux naturels en Grand Est',
+                'url' => 'https://gestion-milieux-grandest.fr/',
+                'image' => 'images/realisations/pole_gestion.png',
+                'description' => "Site internet et boîte à outils du pôle gestion des milieux naturels en Grand Est"
+            ],
+            [
+                'nom' => 'Site du Conservatoire d\'espaces naturels de Lorraine',
                 'url' => 'https://cen-lorraine.fr',
                 'image' => 'images/realisations/site_cen.JPG',
                 'description' => "Site Web du Conservatoire d'espaces naturels de Lorraine"
@@ -26,12 +32,12 @@ class HomeController extends Controller
                 'image' => 'images/realisations/site_pram.JPG',
                 'description' => "Application cartographique du PRAM Grand Est"
             ],
-            [
-                'nom' => 'F J Rénovation',
-                'url' => 'https://f-j-renovation.fr',
-                'image' => 'images/realisations/fjrenovation.png',
-                'description' => "Site Web pour Frédéric Jung, entrepreneur dans le batiment"
-            ],
+            // [
+            //     'nom' => 'F J Rénovation',
+            //     'url' => 'https://f-j-renovation.fr',
+            //     'image' => 'images/realisations/fjrenovation.png',
+            //     'description' => "Site Web pour Frédéric Jung, entrepreneur dans le batiment"
+            // ],
             [
                 'nom' => 'Marine ostéopathe',
                 'url' => 'https://marine-osteopathe.fr',
@@ -80,7 +86,14 @@ class HomeController extends Controller
                 'date' => "Février 2021 - Aujourd'hui",
                 'entreprise' => "CEN LORRAINE",
                 'description' => 
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Création d’applications internes sous Laravel et VueJs, notamment la mise en place 
+                d’un extranet, un logiciel de congés, une application de suivi et de gestion de 
+                projet, des applications cartographiques avec leaflet, un CMS interne, ainsi qu’un 
+                outil de gestion pour les conservatoires d’espaces naturels du Grand Est.",
+                'competences' => 
+                [
+                    'Analyse des besoins', 'Conception', 'Développement Front-end et Back-end', 'Test et mise en production', 'Support technique', 'Veille technologique'
+                ]
             ],
             [
                 'poste' => "Concepteur développeur informatique",
@@ -90,7 +103,7 @@ class HomeController extends Controller
                 "Création d'applications internes pour le groupe : un logiciel d'embauche et de suivi des collaborateurs pour les ressources humaines, une application de suivi et de gestion des projets marketing, un logiciel d'inventaire pour faciliter la gestion des concessions et d'autres applications spécifiques au fonctionnement de l'entreprise.",
                 'competences' => 
                 [
-                    'Analyse des besoins', 'Conception', 'Développement Front-end et Back-end', 'Test et mise en production', 'Support technique', 'Support technique'
+                    'Analyse des besoins', 'Conception', 'Développement Front-end et Back-end', 'Test et mise en production', 'Support technique', 'Veille technologique'
                 ]
             ],
             [

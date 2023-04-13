@@ -7,8 +7,8 @@
 <!-- 						<img src="images/img_1.jpg" alt="Image" class="img-fluid mb-5"> -->
 						<h2 class="footer-heading mb-3">Contact</h2>
 						<p>KENNEL Julien</p>
-						<p>Tél : 06.74.11.82.11</p>
-						<p>Email : kennel.julien@gmail.com</p>
+						<p>Tél : <a href="tel:+336.74.11.82.11">06.74.11.82.11</a></p>
+						<p>Email : <a href="mailto:kennel.julien@gmail.com">kennel.julien@gmail.com</a></p>
 					</div>
 					<div class="col-lg-8 ml-auto">
 						<div class="row">
