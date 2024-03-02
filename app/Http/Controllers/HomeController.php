@@ -32,12 +32,18 @@ class HomeController extends Controller
                 'image' => 'images/realisations/site_pram.JPG',
                 'description' => "Application cartographique du PRAM Grand Est"
             ],
-            // [
-            //     'nom' => 'F J Rénovation',
-            //     'url' => 'https://f-j-renovation.fr',
-            //     'image' => 'images/realisations/fjrenovation.png',
-            //     'description' => "Site Web pour Frédéric Jung, entrepreneur dans le batiment"
-            // ],
+            [
+                'nom' => 'Kuntz ramonage',
+                'url' => 'https://kuntz-ramonage.fr/',
+                'image' => 'images/realisations/kuntz_ramonage.JPG',
+                'description' => "Site Web pour Cyril Kuntz, ramoneur sur le secteur de Saverne"
+            ],
+            [
+                'nom' => 'F J Rénovation',
+                'url' => 'https://f-j-renovation.fr',
+                'image' => 'images/realisations/fjrenovation.png',
+                'description' => "Site Web pour Frédéric Jung, entrepreneur dans le batiment"
+            ],
             [
                 'nom' => 'Marine ostéopathe',
                 'url' => 'https://marine-osteopathe.fr',
@@ -57,6 +63,11 @@ class HomeController extends Controller
                 'nom' => 'Intranet - CENL',
                 'image' => 'images/realisations/intranet_cen.JPG',
                 'description' => "Intranet du CEN Lorraine : annuaire, agenda partagé, chat, et accès aux diverses applications internes à l'association."
+            ],
+            [
+                'nom' => 'Suivi des devis et factures - CENL',
+                'image' => 'images/realisations/devis_factures.JPG',
+                'description' => "Enregistrement, suivi, validation et édition (drag and drop de date, signature etc...) des devis et factures."
             ],
             [
                 'nom' => 'Application de congés - CENL',
