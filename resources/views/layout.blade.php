@@ -6,7 +6,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="C.V Julien Kennel, développeur d'applications et de sites web, région de Saverne et Strasbourg dans le bas-rhin.">
+
+		<meta name="description" content="C.V et portfolio de Julien Kennel, développeur d'applications et de sites web, région de Saverne et Strasbourg dans le bas-rhin.">
+
+		<meta name="keywords" content="développeur web, développeur full stack, création site web, applications web, freelance, Saverne, Alsace, PHP, Laravel, javascript, vuejs, mysql, postgresql">
+
 		<meta name="author" content="Julien Kennel">
 		<link rel="shortcut icon" type="image/png" href="{{asset('images/ico.png')}}"/>
 
