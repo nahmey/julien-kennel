@@ -39,6 +39,12 @@ class HomeController extends Controller
                 'description' => "Site Web pour Cyril Kuntz, ramoneur sur le secteur de Saverne"
             ],
             [
+                'nom' => 'Menelec',
+                'url' => 'https://menelec67.fr/',
+                'image' => 'images/realisations/menelec.PNG',
+                'description' => "Site Web pour Anthony Defraiteur, électricien à Petersbach, secteur Bas-rhin et Moselle"
+            ],
+            [
                 'nom' => 'F J Rénovation',
                 'url' => 'https://f-j-renovation.fr',
                 'image' => 'images/realisations/fjrenovation.png',

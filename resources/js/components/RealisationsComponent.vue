@@ -101,3 +101,12 @@
 		}
 	}
 </script>
+
+<style>
+.button-decouvrir{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+</style>
