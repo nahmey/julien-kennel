@@ -31078,6 +31078,11 @@ var render = function () {
                     "a",
                     {
                       staticClass: "float-right",
+                      staticStyle: {
+                        position: "absolute",
+                        bottom: "25px",
+                        right: "25px",
+                      },
                       attrs: { href: realisation.url, target: "_blank" },
                     },
                     [

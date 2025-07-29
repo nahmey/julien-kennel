@@ -26,7 +26,7 @@
                             <h3 class="title p-4">{{realisation.nom}}</h3>
 
                             <div class="p-4">
-                              	<a :href="realisation.url" target="_blank" class="float-right">
+                              	<a :href="realisation.url" target="_blank" class="float-right" style="position: absolute;bottom: 25px;right: 25px;">
                                     Découvrir
                                 </a>
                             </div>

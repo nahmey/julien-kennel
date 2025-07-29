@@ -15,22 +15,10 @@ class HomeController extends Controller
     {
         $sites = [
             [
-                'nom' => 'Site du pôle gestion des milieux naturels en Grand Est',
-                'url' => 'https://gestion-milieux-grandest.fr/',
-                'image' => 'images/realisations/pole_gestion.png',
-                'description' => "Site internet et boîte à outils du pôle gestion des milieux naturels en Grand Est"
-            ],
-            [
-                'nom' => 'Site du Conservatoire d\'espaces naturels de Lorraine',
-                'url' => 'https://cen-lorraine.fr',
-                'image' => 'images/realisations/site_cen.JPG',
-                'description' => "Site Web du Conservatoire d'espaces naturels de Lorraine"
-            ],
-            [
-                'nom' => 'PRAM Grand Est',
-                'url' => 'https://app.pram-grandest.fr/',
-                'image' => 'images/realisations/site_pram.JPG',
-                'description' => "Application cartographique du PRAM Grand Est"
+                'nom' => 'Éspèces exotiques envahissantes en Grand Est',
+                'url' => 'https://eee-grandest.fr/',
+                'image' => 'images/realisations/eee.png',
+                'description' => "Site Web des EEE en Grand Est"
             ],
             [
                 'nom' => 'Kuntz ramonage',
@@ -39,10 +27,28 @@ class HomeController extends Controller
                 'description' => "Site Web pour Cyril Kuntz, ramoneur sur le secteur de Saverne"
             ],
             [
+                'nom' => 'Site du Conservatoire d\'espaces naturels de Lorraine',
+                'url' => 'https://cen-lorraine.fr',
+                'image' => 'images/realisations/cenl.png',
+                'description' => "Site Web du Conservatoire d'espaces naturels de Lorraine"
+            ],
+            [
+                'nom' => 'Site du pôle gestion des milieux naturels en Grand Est',
+                'url' => 'https://gestion-milieux-grandest.fr/',
+                'image' => 'images/realisations/pole_gestion.png',
+                'description' => "Site internet et boîte à outils du pôle gestion des milieux naturels en Grand Est"
+            ],
+            [
                 'nom' => 'Menelec',
                 'url' => 'https://menelec67.fr/',
                 'image' => 'images/realisations/menelec.PNG',
                 'description' => "Site Web pour Anthony Defraiteur, électricien à Petersbach, secteur Bas-rhin et Moselle"
+            ],
+            [
+                'nom' => 'PRAM Grand Est',
+                'url' => 'https://app.pram-grandest.fr/',
+                'image' => 'images/realisations/site_pram.JPG',
+                'description' => "Application cartographique du PRAM Grand Est"
             ],
             [
                 'nom' => 'F J Rénovation',
@@ -67,7 +73,8 @@ class HomeController extends Controller
         $applications = [
             [
                 'nom' => 'Intranet - CENL',
-                'image' => 'images/realisations/intranet_cen.JPG',
+                // 'image' => 'images/realisations/intranet_cen.JPG',
+                'image' => 'images/realisations/intranet.png',
                 'description' => "Intranet du CEN Lorraine : annuaire, agenda partagé, chat, et accès aux diverses applications internes à l'association."
             ],
             [
