@@ -74,7 +74,7 @@ class HomeController extends Controller
             [
                 'nom' => 'Intranet - CENL',
                 // 'image' => 'images/realisations/intranet_cen.JPG',
-                'image' => 'images/realisations/intranet.png',
+                'image' => 'images/realisations/intranet.PNG',
                 'description' => "Intranet du CEN Lorraine : annuaire, agenda partagé, chat, et accès aux diverses applications internes à l'association."
             ],
             [
